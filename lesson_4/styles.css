@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    position: absolute;
+    height: 100%;
+}
+
+.block {
+    position: relative;
+    width: 50%;
+    background: #eccea4;
+    margin: calc(20% - 5px);
+}
+
+.content {
+    border: 1px solid red;
+}

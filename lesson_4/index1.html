@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>domApi sizes difference</title>
+</head>
+<style>
+    .element {
+        width: 201.5px;
+        height: 50px;
+        background: aquamarine;
+    }
+</style>
+<body>
+
+    <div class="element">element</div>
+
+    <script type="application/javascript">
+        var elem = document.querySelector('.element');
+        console.log(elem.offsetWidth);
+    </script>
+</body>
+</html>
