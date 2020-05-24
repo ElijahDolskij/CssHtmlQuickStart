@@ -1,0 +1,49 @@
+body {
+    font-size: 32px;
+    margin: 0;
+}
+
+
+
+/*----------------------------------------------*/
+.example-2 { /*white-space, text-overflow */
+    width: 300px;
+    border: 1px solid gray;
+}
+
+
+
+
+/*----------------------------------------------*/
+.example-3 { /*overflow-wrap: break-word*/
+    width: 300px;
+    border: 1px solid gray;
+}
+
+
+
+
+/*----------------------------------------------*/
+.example-4 { /* vertical-align */
+    text-align: center;
+}
+
+.example-4 .icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border: 1px solid;
+    background: green;
+}
+
+.example-4 .right-icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid;
+    background: red;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+/*----------------------------------------------*/
