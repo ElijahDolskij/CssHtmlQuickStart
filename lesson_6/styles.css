@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: aliceblue;
+    font-size: 32px;
+}
+
+body > div {
+    min-height: 200px;
+    border: 4px solid cornflowerblue;
+    padding: 20px;
+    margin: 20px;
+    background: beige;
+}
+
+.inline-block {
+    min-height: 200px;
+    border: 4px solid cornflowerblue;
+    padding: 0 20px;
+    background: beige;
+    line-height: 50px;
+}
+
+.block-2 {
+    width: 50%;
+}
+
+.block-3 {
+    width: 25%;
+}
+
+.block-3 .inline-child {
+    background: blueviolet;
+    border: 5px solid red;
+}
+
+.block-3 .inline-block-child {
+    display: inline-block;
+    background: blueviolet;
+    border: 5px solid red;
+}
+
+.block-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-5 > div {
+    border: 1px solid darkred;
+    flex-grow: 1;
+    background: #eccea4;
+}
