@@ -5,8 +5,7 @@
     src: local('Awesome Font'),
     url('/fonts/awesome.woff2') format('woff2'),
     url('/fonts/awesome.woff') format('woff'),
-    url('/fonts/awesome.ttf') format('ttf'),
-    url('/fonts/awesome.eot') format('eot');
+    url('/fonts/awesome.ttf') format('ttf')
 }
 
 /* 1 */
@@ -24,7 +23,7 @@ body {
     font: 1rem/1.2 'Open Sans', Secondary, 'e.t.c.',  sans-serif;
 }
 
-/* 3 */
+/* 4 */
 body {
     font: 14px/1.2 'Open Sans', Secondary, 'e.t.c.',  sans-serif;
 }
