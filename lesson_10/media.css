@@ -1,0 +1,65 @@
+@media (max-width: 580px) {
+    .example-1 {
+        flex-direction: column;
+    }
+
+    .example-1 .button:nth-child(3) {
+        margin-left: 5px;
+    }
+
+    .example-2 .buttons-wrap {
+        max-width: 100%;
+    }
+
+    .example-2 {
+        flex-wrap: wrap;
+    }
+
+    .example-2 .text-input {
+        max-width: 100%;
+    }
+
+    .example-2 .buttons-wrap {
+        margin-left: 0;
+        flex-grow: 1;
+    }
+
+    .example-2 .button {
+        flex-grow: 1;
+    }
+
+    .example-3 {
+        flex-wrap: wrap;
+    }
+
+    .example-3 .text-box {
+        flex-shrink: 1;
+    }
+
+    .example-4 {
+        flex-direction: column;
+    }
+
+    .example-4 .right {
+        max-width: 100%;
+    }
+
+    .example-4 .left {
+        min-width: 0;
+    }
+
+    .example-5 {
+        flex-direction: column;
+    }
+
+    .example-5 .text-box {
+        max-width: 100%;
+        min-width: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .example-2 .buttons-wrap {
+        flex-direction: column;
+    }
+}
