@@ -24,6 +24,10 @@ body {
     margin: 10px;
 }
 
+.rabbit {
+    position: relative;
+}
+
 .rabbit svg {
     fill: brown;
     width: 100%;

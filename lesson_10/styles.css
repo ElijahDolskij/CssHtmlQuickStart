@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font: bold 24px/1.2 Verdana, sans-serif;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+    background: cadetblue;
+    border: 5px solid darkgray;
+    box-shadow: inset 0 0 2px rgba(0,0,0,.5);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    color: white;
+}
+
+.button:after,
+.button:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 100%;
+}
+
+.button span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wrapper {
+    display: flex;
+    margin: 20px;
+    border: 3px solid deepskyblue;
+}
+
+.example-0 {
+    height: 300px;
+}
+
+.example-0 .button {
+    margin: auto;
+}
+
+.example-1 .button:nth-child(3) {
+    margin-left: auto;
+}
+
+.example-2 {
+    flex-wrap: wrap;
+}
+
+.example-2 .button:nth-child(3) {
+    margin-left: auto;
+}
+

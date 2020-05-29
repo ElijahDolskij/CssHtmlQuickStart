@@ -6,37 +6,38 @@ table {
     border-collapse: collapse;
     border: 3px solid green;
     text-align: left;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 td, th {
     border: 1px solid green;
 }
 
-
-th {
-    position: sticky;
-    background: white;
-    top:0;
-}
-
-
-
-
-
-
-
-
 table {
+    table-layout: fixed;
     width: 100%;
 }
 
- th:nth-child(1), td:nth-child(1) {
-    width: 300px;
+th:nth-child(1) {
+    width: 30%;
 }
- th:nth-child(2), td:nth-child(2) {
-    width: 300px;
+th:nth-child(2) {
+    width: 150px;
 }
- th:nth-child(3), td:nth-child(3) {
-    width: 300px;
+th:nth-child(3) {
+    width: 150px;
+}
+th:nth-child(4) {
+    width: 25%;
+}
+
+.table-wrap {
+    height: 50vh;
+    overflow-y: auto;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background: white;
 }
