@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        #target-id {
+            color: yellow;
+        }
+    </style>
+    <title>Cascade</title>
+</head>
+<body>
+    <div class="target-class" id="target-id" style="color: gray !important;">123</div>
+    <script>
+        document.getElementById('target-id').setAttribute('style', 'color: violet !important')
+    </script>
+</body>
+</html>

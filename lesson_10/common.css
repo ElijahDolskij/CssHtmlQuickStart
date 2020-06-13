@@ -78,3 +78,16 @@ body {
     background: forestgreen;
     color: white;
 }
+
+.text {
+    position: relative;
+    color: red;
+    bottom: -15px;
+}
+
+.child {
+    position: relative;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px;
+    text-shadow: -5px -5px 5px;
+}

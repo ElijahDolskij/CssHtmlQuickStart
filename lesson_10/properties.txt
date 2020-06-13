@@ -1,0 +1,19 @@
+display: flex;
+justify-content: flex-start || flex-end || center;
+align-items: flex-start || flex-end || stretch;
+align-self: flex-start || flex-end || stretch;
+order: number;
+flex-grow: number (positive only);
+flex-shrink: number (positive only);
+flex-basis: auto || px; content → width → flex-basis
+flex-direction: row;
+min-width
+max-width
+
+
+
+
+
+
+flex: ;
+flex-flow: ;

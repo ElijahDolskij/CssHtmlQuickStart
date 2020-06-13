@@ -1,0 +1,16 @@
+body {
+    font-size: 40px;
+    color: red;
+}
+
+.target-class {
+    color: green;
+}
+
+.target-class {
+    color: blue;
+}
+
+div {
+    color: orange;
+}

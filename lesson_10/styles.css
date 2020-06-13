@@ -10,11 +10,6 @@
     margin-left: auto;
 }
 
-.example-1 .button:nth-child(2),
-.example-1 .button:nth-child(4) {
-    flex-shrink: 1.5;
-}
-
 .example-2 .text-input {
     max-width: 400px;
     flex-grow: 1;
@@ -28,14 +23,11 @@
 }
 
 .example-3 .left {
-    max-width: 100%;
     flex-basis: 300px;
     flex-shrink: 0;
-    flex-grow: 1;
 }
 
 .example-4 .text-box {
-    background: deepskyblue;
     flex-basis: 50%;
     flex-grow: 1;
 }
@@ -50,10 +42,10 @@
 
 .example-5 .left,
 .example-5 .right {
-    min-width: 250px;
-    max-width: 450px;
+    /*min-width: 250px;*/
+    /*max-width: 450px;*/
 }
 
 .example-5 .right {
-    margin-left: auto;
+    /*margin-left: auto;*/
 }
