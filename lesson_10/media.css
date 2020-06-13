@@ -36,6 +36,10 @@
         flex-shrink: 1;
     }
 
+    .example-3 .left {
+        flex-grow: 1;
+    }
+
     .example-4 {
         flex-direction: column;
     }
