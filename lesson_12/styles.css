@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.font {
+    font: bold 42px/1.2 Verdana, sans-serif;
+}
+
+.font .inner-text {
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    height: 50px;
+    background: red;
+}
+
+.madding {
+    width: 200px;
+    height: 200px;
+    background: gray;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+.border {
+    width: 200px;
+    height: 200px;
+    background: green;
+
+
+    border: blue 10px solid;
+}
+
+.border:hover {
+    border-right: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.transform {
+    width: 300px;
+    height: 200px;
+    background: #eccea4;
+    -webkit-transform: translate(50px, 50px);
+    -moz-transform: translate(50px, 50px);
+    transform: translate(50px, -50px);
+}

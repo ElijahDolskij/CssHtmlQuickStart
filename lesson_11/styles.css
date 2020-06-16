@@ -4,13 +4,22 @@ body {
 }
 
 .target-class {
-    color: green;
+    background-color: green;
+    transition: background-color 0s 10s ease;
 }
 
-.target-class {
-    color: blue;
+div.target-class {
+    background-color: green;
+    transition: background-color 0s 10s ease;
 }
 
-div {
-    color: orange;
+#target-class {
+    background-color: green;
+    transition: background-color 0s 10s ease;
+}
+
+
+#target-class {
+    background-color: green;
+    transition: background-color 0s 10s ease;
 }
